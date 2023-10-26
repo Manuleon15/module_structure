@@ -1,5 +1,4 @@
-from torch import Tensor
-
+import torch
 
 class Operations:
     def __init__(self):
