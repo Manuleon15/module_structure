@@ -27,11 +27,11 @@ class Operations:
 
 op = Operations
 
-op.zeros(2)
+op.zeros(2,)
 
-op.ones(2)
+op.ones(2,)
 
-op.random(3)
+op.random(3,)
 
 tensor1 = torch.tensor([[3, 2, 5], [2, 4, 5]])
 tensor2 = torch.tensor([[1, 5, 7], [6, 3, 1]])
