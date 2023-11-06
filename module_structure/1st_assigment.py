@@ -10,7 +10,7 @@ class Operations:
 
     @staticmethod
     def ones(shape):
-        return torch.zeros(shape)
+        return torch.ones(shape)
 
     @staticmethod
     def random(shape):
