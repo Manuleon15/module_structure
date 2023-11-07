@@ -1,7 +1,7 @@
-from module_structure.1st_assigment import *
+from module_structure.first_assigment import *
 
 
-__all__ = 1st_assigment.__all__
+__all__ = first_assigment.__all__
 
 MAJOR = 1
 MINOR = 0
