@@ -25,17 +25,5 @@ class Operations:
         return t1 * t2
 
 
-op = Operations
+__all__ = ['Operations']
 
-op.zeros(2,)
-
-op.ones(2,)
-
-op.random(3,)
-
-tensor1 = torch.tensor([[3, 2, 5], [2, 4, 5]])
-tensor2 = torch.tensor([[1, 5, 7], [6, 3, 1]])
-
-op.sum(tensor1, tensor2)
-
-op.mult(tensor1, tensor2)
