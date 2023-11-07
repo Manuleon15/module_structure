@@ -1,5 +1,6 @@
 import torch
 
+
 class Operations:
     def __init__(self):
         pass
@@ -10,7 +11,7 @@ class Operations:
 
     @staticmethod
     def ones(shape):
-        return torch.zeros(shape)
+        return torch.ones(shape)
 
     @staticmethod
     def random(shape):
@@ -18,24 +19,16 @@ class Operations:
 
     @staticmethod
     def sum(t1, t2):
-        return t1 + t2
+        return torch.add(t1, t2)
 
     @staticmethod
     def mult(t1, t2):
-        return t1 * t2
+        return torch.mul(t1, t2)
 
+    @staticmethod
+    def cambio_forma(new_shape):
+        return torch.ones(new_shape)
 
-op = Operations
-
-op.zeros(2)
-
-op.ones(2)
-
-op.random(3)
-
-tensor1 = torch.tensor([[3, 2, 5], [2, 4, 5]])
-tensor2 = torch.tensor([[1, 5, 7], [6, 3, 1]])
-
-op.sum(tensor1, tensor2)
-
-op.mult(tensor1, tensor2)
+    @staticmethod
+    def transpose(t, dim1, dim2):
+        return torch.transpose(t, dim1, dim2)

@@ -1,7 +1,7 @@
-from module_structure.tensor_operators import *
+from assigments.first_assigment import *
 
 
-__all__ = tensor_operators.__all__
+__all__ = first_assigment.__all__
 
 MAJOR = 1
 MINOR = 0
