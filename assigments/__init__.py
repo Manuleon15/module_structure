@@ -1,6 +1,5 @@
 from assigments.first_assigment import *
 
-
 __all__ = first_assigment.__all__
 
 MAJOR = 1
@@ -11,5 +10,5 @@ COMMIT = 12
 # from main import *
 
 __version__ = f'{MAJOR}.{MINOR}.{PATCH}.{COMMIT}'
-__author__  = 'Manuel_Leon'
-__name__    = 'module_structure'
+__author__ = 'Manuel_Leon'
+__name__ = 'assigments'
